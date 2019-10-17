@@ -3,8 +3,32 @@
 	<head>
 		<meta charset="utf-8">
 		<title>BPJ Textbook</title>
+
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+
+		<link rel="stylesheet" type="text/css" href="styles.css">
 	</head>
 	<body>
-		<iframe src="BPJ_TextBook_7_0_1_Printable.pdf"></iframe>
+		<div class="header">
+			<h1>MHS Advanced CS</h1>
+		</div>
+
+		<div class="content">
+			<iframe src="BPJ_TextBook_7_0_1_Printable.pdf"></iframe>
+		</div>
+
+		<div class="sidebar" onclick="toggleSidebar()">
+			<div class="toggle-btn">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="#">Blue Pelican Java</a></li>
+				<li><a href="#">Labs</a></li>
+				<li><a href="/BPJ-textbook.pdf/">About</a></li>
+			</ul>
+		</div>
 	</body>
 </html>
