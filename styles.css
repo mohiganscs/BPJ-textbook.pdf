@@ -7,17 +7,13 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
-p > i {
-	font-size: 14px;
-}
-
-p > i:hover {
-	cursor: pointer;
+li > a {
+	text-decoration: none;	
 }
 
 .content {
 	position: absolute;
-	top: 175px;
+	top: 165px;
 	width: 100%;
 	margin: auto;
 }
@@ -32,32 +28,6 @@ p > i:hover {
 	text-align: center;
 	font-size: 28px;
 	font-weight: 900;
-}
-
-.info {
-	position: relative;
-	top: 10px;
-	font-size: 17px;
-	margin-bottom: 30px;
-}
-
-.info > i {
-	font-size: 15px;
-}
-
-.info > i:hover {
-	text-decoration: underline;
-	cursor: pointer;
-}
-
-.main {
-	position: absolute;
-	left: 50%;
-	transform: translate(-50%, 0%);
-}
-
-.more {
-	display: none;
 }
 
 .sidebar {
@@ -108,8 +78,4 @@ p > i:hover {
 	background: white;
 	margin: 5px 0px;
 	border-radius: 10px;
-}
-
-.title {
-	text-align: center;
 }
